@@ -1,0 +1,52 @@
+/* #top0{
+    display: hidden;
+} */
+img{
+    width: 120px;
+    height: 100px !important;
+}
+#root{
+    background-image: linear-gradient(to right,green,rgb(247, 0, 255),blue);
+}
+.grass{
+    background-image: linear-gradient(to right, rgb(98, 255, 98),rgb(0, 238, 167));
+}
+.fire,.dragon{
+    background-image: linear-gradient(to right, rgb(249, 252, 106),rgb(255, 129, 112));
+}
+.water,.ice{
+    background-image: linear-gradient(to right, rgb(136, 247, 255),rgb(113, 163, 255));
+}
+.bug{
+    background-image: linear-gradient(to right, rgb(172, 255, 38),rgb(218, 255, 53));
+}
+.normal{
+    background-image: linear-gradient(to right, rgb(235, 255, 202),rgb(255, 214, 252));
+}
+.poison{
+    background-image: linear-gradient(to right, rgb(117, 188, 255),rgb(152, 51, 247));
+}
+.ground{
+    background-image: linear-gradient(to right, rgb(255, 197, 180),rgb(248, 64, 64));
+}
+.fairy{
+    background-image: linear-gradient(to right, rgb(255, 180, 249),rgb(255, 128, 149));
+}
+.psychic{
+    background-image: linear-gradient(to right, rgb(1, 173, 253),rgb(255, 128, 149));
+}
+.rock,.fighting{
+    background-image: linear-gradient(to right, rgb(133, 224, 247),rgb(36, 138, 255));
+}
+.electric{
+    background-image: linear-gradient(to right, rgb(136, 247, 255),rgb(113, 163, 255));
+}
+.ghost{
+    background-image: linear-gradient(to right, rgb(253, 255, 255),rgb(110, 110, 110));
+}
+li:hover {
+    box-shadow: 5px 5px 5px #3d3d3d;
+}
+h1{
+    color: aliceblue;
+}
